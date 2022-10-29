@@ -41,7 +41,7 @@ export default function React() {
       </p>
 
       <h4>
-        When building single-page apps, there are three major issues that you’ll
+        When building single-page apps, there are three major issues that youll
         encounter:
       </h4>
       <ul>
@@ -59,7 +59,7 @@ export default function React() {
           Manipulating the DOM is really REALLY slow. Manually querying
           elements, adding children, removing subtrees, and performing other DOM
           operations are some of the slowest things you can do in your browser.
-          Unfortunately, in a single-page app, you’ll be doing a lot of this.
+          Unfortunately, in a single-page app, youll be doing a lot of this.
           Manipulating the DOM is the primary way you are able to respond to
           user actions and display new content.
         </li>
@@ -154,7 +154,7 @@ export default function React() {
       <p>
         Before we start building our app, there is an important thing we should
         cover first. React isnt like many JavaScript libraries you may have
-        used. It isnt very happy when you simply refer to code you’ve written
+        used. It isnt very happy when you simply refer to code youve written
         for it using a script tag. React is annoyingly special that way, and it
         has to do with how React apps are built. As you know, your web apps (and
         everything else your browser displays) are made up of HTML, CSS, and
