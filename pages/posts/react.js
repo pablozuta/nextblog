@@ -7,7 +7,7 @@ export default function React() {
       <p>
         React is a free and open-source front-end JavaScript library for
         building user interfaces based on UI components. It is maintained by
-        Meta (formerly Facebook) and a community of individual developers and
+        Meta formerly Facebook and a community of individual developers and
         companies.React can be used as a base in the development of single-page,
         mobile, or server-rendered applications with frameworks like Next.js.
         However, React is only concerned with state management and rendering
@@ -36,8 +36,8 @@ export default function React() {
         into segments that can be spread out over multiple frames. Likewise, the
         structure of a page can be broken into segments that may be maintained
         and updated separately. JavaScript functions and virtual DOM objects are
-        called fibers, and each can be operated and updated separately,
-        allowing for smoother on-screen rendering.
+        called fibers, and each can be operated and updated separately, allowing
+        for smoother on-screen rendering.
       </p>
 
       <h4>
@@ -74,7 +74,7 @@ export default function React() {
 
       <h3>Meet React</h3>
       <p>
-        Facebook (and Instagram) decided that enough is enough. Given their
+        Facebook and Instagram decided that enough is enough. Given their
         abundance of experience with single-page apps, they released a library
         called React to not only address these shortcomings, but to also change
         how we think about building single-page apps.
@@ -116,8 +116,8 @@ export default function React() {
       <p>
         What React does is pretty neat. By having your UI defined entirely in
         JavaScript, you get to use all of the rich functionality JavaScript
-        provides for doing all sorts of things inside your templates (as you
-        will see in a few chapters). You are limited only by what JavaScript
+        provides for doing all sorts of things inside your templates as you
+        will see in a few chapters. You are limited only by what JavaScript
         supports as opposed to any limitations imposed by your templating
         framework. Now, when you think of visuals defined entirely in
         JavaScript, you are probably thinking something horrible involving
@@ -154,19 +154,17 @@ export default function React() {
       <p>
         Before we start building our app, there is an important thing we should
         cover first. React isnt like many JavaScript libraries you may have
-        used. It isnt very happy when you simply refer to code youve written
-        for it using a script tag. React is annoyingly special that way, and it
-        has to do with how React apps are built. As you know, your web apps (and
-        everything else your browser displays) are made up of HTML, CSS, and
+        used. It isnt very happy when you simply refer to code youve written for
+        it using a script tag. React is annoyingly special that way, and it has
+        to do with how React apps are built. As you know, your web apps and
+        everything else your browser displays are made up of HTML, CSS, and
         JavaScript.It doesnt matter if your web app was written using React or
         some other library like Angular, Knockout, or jQuery. The end result has
         to be some combination of HTML, CSS, and JavaScript. Otherwise, your
         browser really wont know what to do.
       </p>
-      <p></p>
 
       <center>
-       
         <h2 className='title'>
           <Link href='/'>Back to home</Link>
         </h2>
