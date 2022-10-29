@@ -165,9 +165,9 @@ export default function React() {
       </p>
       <p></p>
 
-      <h2 className='title'>
+     <center> <h2 className='title'>
         <Link href='/'>Back to home</Link>
-      </h2>
+      </h2></center>
     </>
   );
 }

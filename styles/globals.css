@@ -2,22 +2,29 @@ html,
 body {
   padding: 0; margin: 0.7; font-size: small;
   font-family:  BlinkMacSystemFont, sans-serif;
+  font-size:1.15rem;
+  margin-inline: 0.8rem;
 }
 
-p{
-  font-size:0.85rem;
+.navbar{
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  justify-content: space-between;
 }
-
+.navbar a:hover{
+  color:coral;
+}
 a {color: inherit;text-decoration: none;}
 
 * {box-sizing: border-box;}
 
-h3 {color: coral;font-size: 1.3rem;}
+h3 {color: coral;font-size: 1.6rem;}
 
 .title {color: coral;border-style:solid;margin-inline: 0.5rem;}
 .title :hover{color:honeydew;}
 
-img {width: 230px; height: 200px; object-fit: cover;}
+img {width: 480px; height: 400px; object-fit: cover;}
 
 
 

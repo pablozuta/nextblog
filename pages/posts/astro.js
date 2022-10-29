@@ -8,6 +8,7 @@ export default function Glosary() {
       <center>
         <h1 className='title'>
           <Link href='/'>Back To Home</Link>
+       
         </h1>
       </center>
     </>

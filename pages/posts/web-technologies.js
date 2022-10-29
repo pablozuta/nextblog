@@ -3,110 +3,14 @@ import Link from "next/link";
 export default function WebTechnologies() {
   return (
     <>
-      <h1>WEB TECHNOLOGIES:A Computer Science Perspective</h1>
-      <h3>PURPOSE AND SCOPE</h3>
-      <p>
-        This textbook is designed to provide a careful introduction to key
-        technologies that have been developed as part of the birth and
-        maturation of the World Wide Web. My goal is for students using this
-        book to understand The Web at a fundamental level, much as students who
-        learn assembly language understand computers at such a level. This level
-        of understanding should provide a solid foundation on which to build as
-        students subsequently learn about higher-level web development tools
-        based on the technologies covered here. It should also prepare them well
-        for further study of web technologies, both those that exist today and
-        those that will be developed in the future.
-      </p>
-      <p>
-        The textbook is designed primarily for use in computer science (CS)
-        courses, but other uses are mentioned later. I assume that the reader
-        has a background roughly equivalent to the first three semesters of an
-        undergraduate CS major. For instance, I expect well-developed skills in
-        at least one programming language, familiarity with Java or the
-        background and ability to learn it quickly from other sources (no Java
-        knowledge is required until the last half of the book), and facility
-        with basic data structures, especially trees.
-      </p>
-      <p>
-        I have chosen topics so as to treat the subject with reasonable breadth
-        while also allowing for significant depth. With respect to breadth, the
-        textbook focuses on technologies that are unlikely to receive detailed
-        treatment in nonweb CS courses. Conversely, this book covers only
-        lightly a number of topics that, while related to the Web, are not web
-        technologies per se and are likely to be covered in other CS courses.
-        For instance, while an appendix describes how to connect a Java-based
-        web application to a database management system (DBMS), the book does
-        not attempt to present SQL or database concepts. Other web-related CS
-        topics that are covered narrowly—that is, primarily as they relate
-        directly to web technologies—include computer networks, software
-        engineering, and security. Finally, because of the emphasis on
-        foundational technologies that are fundamentally web-related,
-        higher-level development tools (such as Macromedia ,Dreamweaver ) and
-        content presentation tools (such as Macromedia, Flash) are not covered.
-      </p>
-      <p>
-        Another scope consideration arises from the fact that, especially when
-        it comes to server-side software, several web technologies provide
-        similar capabilities, forming a technology class. For example, the
-        ASP.NET, ColdFusion , JSPTM, and PHP technologies all occupy the same
-        server-side software niche, and each is currently in widespread use.
-        Even if time and space allowed all of these technologies to be covered
-        in some depth, I suspect that most students would tire of seeing similar
-        concepts dressed in several different sets of clothes. So I have chosen
-        instead to cover one member of each class in some detail and also to
-        provide a high-level comparison of the example technology with other
-        widely used members of the class. It seems reasonable to expect that a
-        student who understands one technology well will be able to quickly
-        adapt to conceptually related technologies as the need arises in the
-        future.
-      </p>
-      <p>
-        Along these same lines, for each technology class covered I have chosen
-        to use a Javabased representative as the example for the class.The
-        Java-based technologies covered in this textbook are available for free
-        download and run on all major operating systems. Also, it seems that
-        most CS students today know Java or a closely related language, so using
-        Java-based software should maximize the time that these students can
-        spend learning web technologies themselves as opposed to learning
-        programming languages. Finally, the significant use of Java-based web
-        technologies in support of many major Web sites would seem to imply that
-        knowledge of these technologies may be directly beneficial to many
-        students when they join real-world development environments.
-      </p>
-      <p>
-        By limiting its scope as described, my hope is that this book will
-        provide readers with a depth of understanding of foundational web
-        technologies and concepts that will enable them to develop high-quality
-        web applications and avoid many of the common mistakes made by
-        less-knowledgeable web developers. Furthermore, my expectation is that
-        students using this book will be able to quickly learn and adapt to new
-        web technologies as they emerge in the future. I also hope that many of
-        them will be well prepared for further research on core web technologies
-        and to eventually contribute to the development of new technologies. In
-        fact, one of my goals is to provide enough background so that anyone who
-        has read this book should be able to subsequently read and understand
-        (with a reasonable amount of effort) the primary reference sources for
-        the standards and technologies covered. From an instructional point of
-        view, this depth of coverage also allows the instructor to assign some
-        challenging and interesting homework and projects.
-      </p>
-      <p>
-        While the textbook adopts a CS perspective, many courses taught outside
-        CS departments (for example, in information systems/technologies
-        programs) cover similar topics and may benefit from using this book as
-        either a primary or a reference text. Furthermore, I believe that the
-        book may also be helpful to web development professionals who have not
-        had much formal training in web technologies. In fact, I initially
-        taught myself about the Web on the job at a dot-com, and this book to
-        some extent represents “what I wish I’d known.”
-      </p>
+      
       <h3>Features</h3>
       <h4>Some of the features on this textbook:</h4>
       <ul>
         <li>Hypertext Transport Protocol (HTTP)</li>
         <li>Extensible HyperText Markup Language (XHTML)</li>
         <li>Cascading Style Sheets (CSS)</li>
-        <li>JavaScriptTM language</li>
+        <li>JavaScript language</li>
         <li>Document Object Model (DOM)</li>
         <li>Java servlets</li>
         <li>Extensible Markup Language (XML)</li>
@@ -222,10 +126,110 @@ export default function WebTechnologies() {
         network, and these were primarily at universities and other
         organizations involved in DoD-sponsored research.
       </p>
-      <center><h2 className='title'>
-        <Link href='/'>Back To Home</Link>
-      </h2></center>
-      
+      <p>
+        Despite the relatively small number of machines actually on the ARPANET,
+        the benefits of networking were becoming known to a wide audience. For
+        example, e-mail was available on ARPANET beginning in 1972, and it soon
+        became an extremely popular application for those who had ARPANET
+        access. It wasn’t long before other networks were being built, both
+        internationally and regionally within the United States. The regional
+        U.S. networks were often cooperative efforts between universities. As
+        one example, SURAnet (Southeastern University Research Association
+        Network)was organized by the University of Maryland beginning in 1982
+        and eventually included essentially all of the major universities and
+        research institutions in the southeastern United States. Another of
+        these networks, CSNET (Computer Science Network), was partially funded
+        by the U.S. National Science Foundation (NSF) to aid scientists at
+        universities without ARPANET access, laying the groundwork for future
+        network developments that we’ll say more about in a moment.
+      </p>
+      <p>While these other networks were springing up, the ARPANET project continued
+to fund research on networking. Several of the most widely used Internet protocols—
+including the File Transfer Protocol (FTP) and Simple Mail Transfer Protocol (SMTP),
+which underlie many of the Internet’s file transfer and e-mail operations, respectively—
+were initially developed under ARPANET. But perhaps most crucial to the emergence
+of the Internet as we know it was the development of the TCP/IP (Transmission Control
+Protocol/Internet Protocol) communication protocol. TCP/IP was designed to be used for
+host-to-host communication both within local area networks (that is, networks of computers
+that are typically in close proximity to one another, such as within a building) and
+between networks. ARPANET switched from using an earlier protocol to TCP/IP during
+1982. At around the same time, an ARPA Internet was created, allowing computers on
+some outside networks such as CSNET to communicate via TCP/IP with computers on the
+ARPANET.</p>
+<p>A “connection” from CSNET to the ARPA Internet often meant that a modem connection
+was made from one computer to another for the purpose of sending along an e-mail
+message. This form of communication was asynchronous. That is, the e-mail might be
+delayed some time before it was actually delivered, which precluded interactive communication
+of any type. Furthermore, each institution connecting to CSNET was largely on its
+own in determining how it was going to connect to the network. At first, many institutions
+connected through the so-called PhoneNet (modem) approach for passing e-mail messages.
+This generally involved long distance calls, and the expense of these calls could be a problem.
+Other options, such as leasing telephone lines for dedicated use, could be even more
+expensive. It was obvious to everyone that the CSNET institutions were still not enjoying
+all the potential benefits of the ARPA Internet.</p>
+<p>Beginning in 1985, the NSF began work on a new network based on TCP/IP, called
+NSFNET. One of the primary goals of this network was to connect the NSF’s new regional
+supercomputing centers. But it was also decided that regional networks should be able to
+connect to NSFNET, so that the NSFNET would provide a backbone through which other
+networks could interconnect synchronously. Figure 1.1 shows the geographic distribution
+of the six supercomputer centers connected by the early NSFNET backbone. Regional
+networks connecting to the backbone included SURAnet as well as NYSERNet (with
+primary connections through the Ithaca center), JvNCnet (with primary connection through
+the Princeton center) and SDSCnet (with primary connection through the San Diego center).
+In addition, many universities and other organizations connected to the NSFNET backbone
+either directly or through agreements with other institutions that had NSFNET access, either
+directly or indirectly.</p>
+<p>The original backbone operated at only 56 kbit/s, the maximum speed of a home
+dial-up line today. But at the time the primary network traffic was still textual, so this was a
+reasonable starting point. Once operational, the number of machines connected to NSFNET
+grew quickly, in part because the NSF directly or indirectly provided significant support—
+both technically and with monetary grants—to educational and research organizations that
+wished to connect. The backbone rate was upgraded to 1.5 Mbit/s (T1) in 1988 and then to
+45 Mbit/s (T3) in 1991. Furthermore, the backbone was expanded to directly include several
+research networks in addition to the supercomputer centers, making it that much easier for
+sites near these research networks to connect to the NSFNET. In 1988, networks in Canada
+and France were connected to NSFNET; in each succeeding year for the remaining seven
+years of NSFNET’s existence, networks from 10 or so new countries were added per year.</p>
+
+<p>NSFNET quickly supplanted ARPANET, which was officially decommissioned in
+1990. At this point, NSFNET was at the center of the Internet, that is, the collection of
+computer networks connected via the public backbone and communicating across networks
+using TCP/IP. This same year, commercial Internet dial-up access was first offered. But
+the NSFNET terms of usage stipulated that purely commercial traffic was not to be carried
+over the backbone: the purpose of the Internet was still, in the eyes of the NSF, research
+and education.</p>
+<p>Increasingly, though, it became clear that there could be significant benefits to allowing
+commercial traffic on the Internet as well. One of the arguments for allowing commercial
+traffic was economic: commercial traffic would increase network usage, leading to reduced
+unit costs through economies of scale. This in turn would provide a less expensive network
+for research and educational purposes. Whatever the motivation, the restriction on commercial
+traffic was rescinded in 1991, spurring further growth of the Internet and laying the groundwork for the metamorphosis of the Internet from a tool used primarily by scientists
+at research institutions to the conduit for information, entertainment, and commerce that
+we know today. This also led fairly quickly to the NSF being able to leave its role as the
+operator of the Internet backbone in the United States. Those responsibilities were assumed
+by private telecommunication firms in 1995. These firms are paid by other firms, such as
+some of the larger Internet service providers (ISPs), who connect directly with the Internet
+backbone. These ISPs, in turn, are paid by their users, which may include smaller ISPs as
+well as end users.</p>
+<p>In summary, the Internet is the collection of computers that can communicate with
+one another using TCP/IP over an open, global communications network. Before describing
+how theWorldWideWeb is related to the Internet, we’ll take a closer look at several of the
+key Internet protocols. This will be helpful in understanding the place of the Web within
+the wider Internet.</p>
+
+
+
+
+
+
+
+
+
+      <center>
+        <h2 className='title'>
+          <Link href='/'>Back To Home</Link>
+        </h2>
+      </center>
     </>
   );
 }

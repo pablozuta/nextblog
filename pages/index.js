@@ -4,9 +4,15 @@ import Head from "next/head";
 export default function Home() {
   return (
     <div>
-      <center>
-        <h1>NEXT JS</h1>
-      </center>
+      <div className="navbar">
+      <Link href='/posts/web-technologies'>WEB TECHNOLOGIES</Link>
+      <Link href='/posts/react'>REACT</Link>
+      <Link href='/posts/astro'>ASTRO</Link>
+      <Link href='/posts/react-router'>REACT ROUTER</Link>
+      <Link href='/posts/glosary'>GLOSARY</Link>
+      </div>
+      
+    
       <h3>Development and Production Environments</h3>
 
       <p>
@@ -152,13 +158,7 @@ export default function Home() {
         client.
       </p>
 
-      <center>
-        <img
-          src='https://media.bizj.us/view/img/11590645/gettyimages-885294108*1024xx3530-1991-1135-1035.jpg'
-          alt=''
-          width={400}
-        />
-      </center>
+    
 
       <h4>Client-Side Rendering vs. Pre-Rendering</h4>
       <p>
@@ -375,33 +375,7 @@ export default function Home() {
       </p>
 
      
-      <center>
-        <h1 className='title'>
-          <Link href='/posts/web-technologies'>WEB TECHNOLOGIES</Link>
-        </h1>
-      </center>
-
-      <center>
-        <h1 className='title'>
-          <Link href='/posts/react'>REACT</Link>
-        </h1>
-      </center>
-
-      <center>
-        <h1 className='title'>
-          <Link href='/posts/astro'>ASTRO</Link>
-        </h1>
-      </center>
-      <center>
-        <h1 className='title'>
-          <Link href='/posts/react-router'>REACT ROUTER</Link>
-        </h1>
-      </center>
-      <center>
-        <h1 className='title'>
-          <Link href='/posts/glosary'>GLOSARY</Link>
-        </h1>
-      </center>
+     
 
     </div>
   );
