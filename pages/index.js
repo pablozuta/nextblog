@@ -17,7 +17,7 @@ export default function Home() {
 
       <p>
         You can think of environments as the context in which your code is
-        running. During development, you’re building and running the application
+        running. During development, youre building and running the application
         on your local machine. Going to production is the process of making your
         application ready to be deployed and consumed by users.
       </p>
@@ -63,8 +63,8 @@ export default function Home() {
         might contain extra information that is not necessary for the code to
         run, such as comments, spaces, indents, and multiple lines.Minification
         is the process of removing unnecessary code formatting and comments
-        without changing the code’s functionality. The goal is to improve the
-        application’s performance by decreasing file sizes.In Next.js,
+        without changing the codes functionality. The goal is to improve the
+        applications performance by decreasing file sizes.In Next.js,
         JavaScript and CSS files are automatically minified for production.
       </p>
 
@@ -75,7 +75,7 @@ export default function Home() {
         Exporting and importing these internal modules, as well as external
         third-party packages, creates a complex web of file
         dependencies.Bundling is the process of resolving the web of
-        dependencies and merging (or ‘packaging’) the files (or modules) into
+        dependencies and merging (or packaging) the files (or modules) into
         optimized bundles for the browser, with the goal of reducing the number
         of requests for files when a user visits a web page.
       </p>
@@ -84,8 +84,8 @@ export default function Home() {
         Developers usually split their applications into multiple pages that can
         be accessed from different URLs. Each of these pages becomes a unique
         entry point into the application. Code-splitting is the process of
-        splitting the application’s bundle into smaller chunks required by each
-        entry point. The goal is to improve the application's initial load time
+        splitting the applications bundle into smaller chunks required by each
+        entry point. The goal is to improve the applications initial load time
         by only loading the code required to run that page.Next.js has built-in
         support for code splitting. Each file inside your pages/ directory will
         be automatically code split into its own JavaScript bundle during the
@@ -123,14 +123,14 @@ export default function Home() {
       </ul>
       <p>
         Runtime (or request time) refers to the period of time when your
-        application runs in response to a user’s request, after your application
+        application runs in response to a users request, after your application
         has been built and deployed.
       </p>
 
       <h3>Client and Server</h3>
       <p>
         In the context of web applications, the client refers to the browser on
-        a user’s device that sends a request to a server for your application
+        a users device that sends a request to a server for your application
         code. It then turns the response it receives from the server into an
         interface the user can interact with.
       </p>
@@ -165,13 +165,13 @@ export default function Home() {
         In a standard React application, the browser receives an empty HTML
         shell from the server along with the JavaScript instructions to
         construct the UI. This is called client-side rendering because the
-        initial rendering work happens on the user's device.
+        initial rendering work happens on the users device.
       </p>
 
       <p>
         In contrast, Next.js pre-renders every page by default. Pre-rendering
         means the HTML is generated in advance, on a server, instead of having
-        it all done by JavaScript on the user's device. In practice, this means
+        it all done by JavaScript on the users device. In practice, this means
         that for a fully client-side rendered app, the user will see a blank
         page while the rendering work is being done. Compared to a pre-rendered
         app, where the user will see the constructed HTML
@@ -195,24 +195,24 @@ export default function Home() {
         content is generated once, at build time, when the application is
         deployed, and the HTML is stored in a CDN and re-used for each request.
         In Next.js, you can opt to statically generate pages by using
-        getStaticProps.{" "}
+        getStaticProps.
       </p>
       <p>
         Note: You can use Incremental Static Regeneration to create or update
-        static pages after you’ve built your site. This means you do not have to
+        static pages after youve built your site. This means you do not have to
         rebuild your entire site if your data changes.
       </p>
       <p>
         The beauty of Next.js is that you can choose the most appropriate
         rendering method for your use case on a page-by-page basis, whether
-        that's Static Site Generation, Server-side Rendering, or Client-Side
+        thats Static Site Generation, Server-side Rendering, or Client-Side
         Rendering. To learn more about which rendering method is right for your
         specific use case, see the data fetching docs.
       </p>
       <h3>What is the Network?</h3>
       <p>
-        It’s helpful to know where your application code is stored and run once
-        it’s deployed to the network. You can think of the network as linked
+        Its helpful to know where your application code is stored and run once
+        its deployed to the network. You can think of the network as linked
         computers (or servers) capable of sharing resources. In the case of a
         Next.js application, your application code can be distributed to origin
         servers, Content Delivery Networks (CDNs), and the Edge.
@@ -235,7 +235,7 @@ export default function Home() {
         the user can respond with the cached result.
       </p>
       <p>
-        This reduces the load on the origin because the computation doesn’t have
+        This reduces the load on the origin because the computation doesnt have
         to happen on each request. It also makes it faster for the user because
         the response comes from a location geographically closer to them. In
         Next.js, since pre-rendering can be done ahead of time, CDNs are well
@@ -245,8 +245,8 @@ export default function Home() {
       <h3>The Edge</h3>
       <p>
         The Edge is a generalized concept for the fringe (or edge) of the
-        network, closest to the user. CDNs could be considered part of "the
-        Edge" because they store static content at the fringe (edge) of the
+        network, closest to the user. CDNs could be considered part of the
+        Edge because they store static content at the fringe (edge) of the
         network. Similar to CDNs, Edge servers are distributed to multiple
         locations around the world. But unlike CDNs, which store static content,
         some Edge servers can run code. This means both caching and code
@@ -254,27 +254,22 @@ export default function Home() {
         the Edge, you can move some of the work that was traditionally done
         client-side or server-side to the Edge (see examples with Next.js here).
         This can make your application more performant because it reduces the
-        amount of code sent to the client, and part of the user's request does
+        amount of code sent to the client, and part of the users request does
         not have to go all the way back to the origin server - thus reducing
         latency. In Next.js, you can run code at the Edge with Middleware, and
         soon with React Server Components.
       </p>
 
 
-      <center>
-        <img
-          src='https://miro.medium.com/max/1000/1*htbUdWgFQ3a94PMEvBr_hQ.png'
-          alt=''
-        />{" "}
-      </center>
+     
 
       <h3>Wikipedia</h3>
       <p>
         Next.js is an open-source web development framework created by Vercel
         enabling React-based web applications with server-side rendering and
         generating static websites. React documentation mentions Next.js among
-        "Recommended Toolchains" advising it to developers as a solution when
-        "Building a server-rendered website with Node.js".Where traditional
+        Recommended Toolchains advising it to developers as a solution when
+      Building a server-rendered website with Node.js.Where traditional
         React apps can only render their content in the client-side browser,
         Next.js extends this functionality to include applications rendered on
         the server-side.The copyright and trademarks for Next.js are owned by
@@ -287,15 +282,15 @@ export default function Home() {
         Next.js is a React framework that enables several extra features,
         including server-side rendering and generating static websites.React is
         a JavaScript library that is traditionally used to build web
-        applications rendered in the client's browser with JavaScript.Developers
+        applications rendered in the clients browser with JavaScript.Developers
         recognize several problems with this strategy however, such as not
         catering to users who do not have access to JavaScript or have disabled
         it, potential security issues, significantly extended page loading
-        times, and harm to the site's overall search engine
+        times, and harm to the sites overall search engine
         optimization.Frameworks such as Next.js sidestep these problems by
         allowing some or all of the website to be rendered on the server-side
         before being sent to the client.Next.js is one of the most popular
-        frameworks for React.It is one of several recommended "toolchains"
+        frameworks for React.It is one of several recommended toolchains
         available when starting a new app, all of which provide a layer of
         abstraction to aid in common tasks.Next.js requires Node.js and can be
         initialized using Node Package Manager.
@@ -307,9 +302,9 @@ export default function Home() {
         framework is used by many large websites, including Walmart, Apple,
         Nike, Netflix, TikTok, Uber, Lyft, and Starbucks.In early 2020, it was
         announced that Vercel had secured twenty-one million dollars in Series A
-        funding to support improvements to the software.The framework's original
+        funding to support improvements to the software.The frameworks original
         author, Guillermo Rauch, is currently the CEO of Vercel, and the
-        project's lead maintainer is Tim Neutkens.
+        projects lead maintainer is Tim Neutkens.
       </p>
 
       <h3>Development History</h3>
@@ -324,7 +319,7 @@ export default function Home() {
         easier to work with small websites. It also increased the build
         efficiency and improved the scalability of the hot-module replacement
         feature.Version 7.0 was released in September 2018 with improved error
-        handling and support for React's context API for improved dynamic route
+        handling and support for Reacts context API for improved dynamic route
         handling. This was also the first version to upgrade to webpack
         4.Version 8.0 was released in February 2019 and was the first version to
         offer serverless deployment of applications, in which the code is split
@@ -336,9 +331,9 @@ export default function Home() {
         including incremental static regeneration, rewrites, and redirect
         support.On June 15, 2021 Next.js version 11 was released, introducing
         among others: Webpack 5 support, preview of real-time collaborative
-        coding functionality "Next.js Live", and experimental function of
+        coding functionality Next.js Live, and experimental function of
         automatic conversion from Create React App to Next.js compatible form
-        "Create React App Migration".On October 26, 2021, Next.js 12 was
+        Create React App Migration.On October 26, 2021, Next.js 12 was
         released, adding a Rust compiler, making the compilation faster, AVIF
         support, Edge Functions & Middleware, and Native ESM & URL Imports.
       </p>
@@ -356,7 +351,7 @@ export default function Home() {
         the application or the entire project, allowing for content-rich pages
         to be singled out for server-side rendering.It can also be done only for
         first-time visitors, to reduce the burden on web browsers that have yet
-        to download any of the site's assets.The "hot reloading" feature detects
+        to download any of the sites assets.The hot reloading feature detects
         changes as they are made and re-renders the appropriate pages so the
         server avoids the need to be restarted. This allows changes made to the
         application code to be immediately reflected in the web browser, though
@@ -369,7 +364,7 @@ export default function Home() {
         static site generation - a compiled version of the website is usually
         built during build time and saved as a .next folder. When a user makes a
         request, the pre-built version which are static HTML pages are cached
-        and sent to them. This makes the load time very fast, but it's not
+        and sent to them. This makes the load time very fast, but its not
         suitable for every website because for interactive sites that change
         often and utilize a lot of user input will not be suitable.
       </p>

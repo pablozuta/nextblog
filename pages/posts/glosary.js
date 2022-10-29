@@ -31,14 +31,14 @@ export default function Glosary() {
         progressively enhanced HTML, with more specificity around how the
         enhancement occurs. Rather than a single application being in control of
         full-page rendering, there are multiple entry points. The script for
-        these "islands" of interactivity can be delivered and hydrated
+        these islands of interactivity can be delivered and hydrated
         independently, allowing the rest of the page to be just static HTML.
       </p>
       <h3>Rule of Least Power</h3>
       <p>
         In programming, the rule of least power is a design principle that
-        "suggests choosing the least powerful [computer] language suitable for a
-        given purpose"
+        suggests choosing the least powerful [computer] language suitable for a
+        given purpose
       </p>
       <p>
         Many Web technologies are designed to exploit the Rule of Least Power.

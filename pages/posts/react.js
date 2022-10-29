@@ -18,25 +18,25 @@ export default function React() {
       <h3>History</h3>
       <p>
         React was created by Jordan Walke, a software engineer at Facebook, who
-        released an early prototype of React called "FaxJS".He was influenced by
+        released an early prototype of React called FaxJS.He was influenced by
         XHP, an HTML component library for PHP. It was first deployed on
-        Facebook's News Feed in 2011 and later on Instagram in 2012.It was
+        Facebooks News Feed in 2011 and later on Instagram in 2012.It was
         open-sourced at JSConf US in May 2013. React Native, which enables
         native Android, iOS, and UWP development with React, was announced at
-        Facebook's React Conf in February 2015 and open-sourced in March 2015.On
+        Facebooks React Conf in February 2015 and open-sourced in March 2015.On
         April 18, 2017, Facebook announced React Fiber, a new set of internal
-        algorithms for rendering, as opposed to React's old rendering algorithm,
+        algorithms for rendering, as opposed to Reacts old rendering algorithm,
         Stack.React Fiber was to become the foundation of any future
         improvements and feature development of the React library.The actual
         syntax for programming with React does not change; only the way that the
-        syntax is executed has changed.React's old rendering system, Stack, was
+        syntax is executed has changed.Reacts old rendering system, Stack, was
         developed at a time when the focus of the system on dynamic change was
         not understood. Stack was slow to draw complex animation, for example,
         trying to accomplish all of it in one chunk. Fiber breaks down animation
         into segments that can be spread out over multiple frames. Likewise, the
         structure of a page can be broken into segments that may be maintained
         and updated separately. JavaScript functions and virtual DOM objects are
-        called "fibers", and each can be operated and updated separately,
+        called fibers, and each can be operated and updated separately,
         allowing for smoother on-screen rendering.
       </p>
 
@@ -97,7 +97,7 @@ export default function React() {
         and smaller components. Just like everything else in programming, it is
         a good idea to have things be modular, compact, and self-contained.
         React extends that well-established idea to how we should think about
-        user interfaces as well. Many of React’s core APIs make it easier to
+        user interfaces as well. Many of Reacts core APIs make it easier to
         create smaller visual components that can later be combined with other
         visual components to make larger and more complex visual components—kind
         of like Russian Matryoshka dolls
@@ -122,7 +122,7 @@ export default function React() {
         framework. Now, when you think of visuals defined entirely in
         JavaScript, you are probably thinking something horrible involving
         quotation marks, escape characters, and a whole lot of createElement
-        calls. Don’t worry. React gives you the option to specify your visuals
+        calls. Dont worry. React gives you the option to specify your visuals
         using an HTML-like syntax known as JSX that lives fully alongside your
         JavaScript. Instead of writing code to define your UI, you are basically
         specifying markup:
@@ -146,28 +146,31 @@ export default function React() {
         use whatever you want for the M and C part of your MVC architecture.
         This flexibility enables you to pick and choose what technologies you
         are familiar with, and this makes React useful not only for new web apps
-        you create but also for existing apps you’d like to enhance without
+        you create but also for existing apps youd like to enhance without
         removing and refactoring a whole bunch of code.
       </p>
 
       <h3>Dealing With JSX</h3>
       <p>
         Before we start building our app, there is an important thing we should
-        cover first. React isn’t like many JavaScript libraries you may have
-        used. It isn’t very happy when you simply refer to code you’ve written
+        cover first. React isnt like many JavaScript libraries you may have
+        used. It isnt very happy when you simply refer to code you’ve written
         for it using a script tag. React is annoyingly special that way, and it
         has to do with how React apps are built. As you know, your web apps (and
         everything else your browser displays) are made up of HTML, CSS, and
-        JavaScript.It doesn’t matter if your web app was written using React or
+        JavaScript.It doesnt matter if your web app was written using React or
         some other library like Angular, Knockout, or jQuery. The end result has
         to be some combination of HTML, CSS, and JavaScript. Otherwise, your
-        browser really won’t know what to do.
+        browser really wont know what to do.
       </p>
       <p></p>
 
-     <center> <h2 className='title'>
-        <Link href='/'>Back to home</Link>
-      </h2></center>
+      <center>
+       
+        <h2 className='title'>
+          <Link href='/'>Back to home</Link>
+        </h2>
+      </center>
     </>
   );
 }
