@@ -6,7 +6,6 @@ export default function Home() {
     <div>
       <div className="navbar">
       <Link href='/posts/web-technologies'>WEB TECHNOLOGIES</Link>
-      <Link href='/posts/react'>REACT</Link>
       <Link href='/posts/astro'>ASTRO</Link>
       <Link href='/posts/react-router'>REACT ROUTER</Link>
       <Link href='/posts/glosary'>GLOSARY</Link>
