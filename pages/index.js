@@ -1,15 +1,11 @@
-import Link from "next/link";
+import Navbar from "./components/Navbar";
 import Head from "next/head";
 
 export default function Home() {
   return (
     <div>
-      <div className="navbar">
-      <Link href='/posts/web-technologies'>WEB TECHNOLOGIES</Link>
-      <Link href='/posts/astro'>ASTRO</Link>
-      <Link href='/posts/react-router'>REACT ROUTER</Link>
-      <Link href='/posts/glosary'>GLOSARY</Link>
-      </div>
+      <Navbar />
+     
       
     
       <h3>Development and Production Environments</h3>
